@@ -20,12 +20,12 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
+  
+  .header {
+    text-align: center;  
+  }
 
-    .header {
-        text-align: center;
-    }
-    
 }
 
 .main-container {
@@ -152,21 +152,21 @@
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through;
-    color: #888;
+.ul#completed-tasks .label {
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
-    display: none
+.ul .li .input[type=text] {
+  display: none
 }
 
-ul li.edit-mode input[type=text] {
-    display: inline-block;
-    width: 224px
+.ul .li.edit-mode .input[type=text] {
+  display: inline-block;
+  width: 224px
 }
 
-ul li.edit-mode label {
-    display: none;
+.ul .li.edit-mode .label {
+  display: none;
 }
