@@ -157,6 +157,7 @@
   color: #888;
 }
 
+
 /* Edit Task */
 .ul .li .input[type=text] {
   display: none;
@@ -166,6 +167,7 @@
   display: inline-block;
   width: 224px;
 }
+
 
 .ul .li.edit-mode .label {
   display: none;
